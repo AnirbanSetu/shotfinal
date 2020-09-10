@@ -1,0 +1,286 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+body{
+
+	font-family: 'Inter', sans-serif;
+	color:#3c3768;
+}
+
+header{
+	
+	position: relative; 
+}
+
+.banner-img{
+	position:absolute;
+	top: 0;
+	left:0;
+}
+
+
+/*background: rgb(157,88,110)
+background: -moz-linear-gradient(left,  rgba(157,88,110,1) 0%, rgba(246,119,117,1) 100%);
+background: -webkit-linear-gradient(left,  rgba(157,88,110,1) 0%, rgba(246,119,117,1) 100%); 
+background: linear-gradient(to right,  rgba(157,88,110,1) 0%, rgba(246,119,117,1 )100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d586e', endColorstr='#f67775',GradientType=1 );
+*/
+.search-icon{}
+.search-icon button{
+background: rgb(157,88,110);
+background: -moz-linear-gradient(left,  rgba(157,88,110,1) 0%, rgba(246,119,117,1) 100%);
+background: -webkit-linear-gradient(left,  rgba(157,88,110,1) 0%, rgba(246,119,117,1) 100%); 
+background: linear-gradient(to right,  rgba(157,88,110,1) 0%, rgba(246,119,117,1 )100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d586e', endColorstr='#f67775',GradientType=1 );
+border-radius:50%;
+color:#fff;
+padding:0 0;
+width: 40px;
+height: 40px;
+line-height: 40px;
+box-shadow: 0 0 20px #9d586e;
+}
+
+.search-icon button:hover{
+
+	color:#fff;
+}
+
+ .search-icon .dropdown-toggle::after {
+   
+    content:none;
+}
+
+.search-icon .dropdown-menu{
+
+	position:absolute;
+	top:100%;
+	right: 0;
+	left: inherit;
+	padding: 0 0 !important;
+}
+
+.navbar-toggler{
+	border-color: rgb(0 0 0 / 0%) !important;
+}
+
+.navbar-toggler span{
+	width: 28px;
+	height: 2px;
+	background-color: #fff;
+	display: block;
+	margin:5px 0;
+	transition-duration:0.3s;
+}
+
+
+.navbar-toggler span:nth-child(even){
+ 
+ width: 21px;
+}
+
+.navbar-toggler:hover span{
+	width: 30px;
+}
+
+.navbar-toggler:focus{
+	outline: 0 dotted;
+	outline: 0 auto -webkit-focus-ring-color;
+}
+
+.banner-content{
+	max-width: 480px;
+	margin-top:280px;
+}
+.banner-content h1{
+	font-size:40px;
+	color:#3c3768;
+	font-weight: 900;
+	font-family: 'Poppins', sans-serif;
+
+}
+.banner-content p{
+	font-size: 15px;
+	line-height: 1.8;
+
+
+}
+.banner-content h5{
+		line-height: 1.8;
+		font-size: 18px;
+}
+.form-inline{}
+.form-inline div{}
+.form-inline div input{}
+.form-inline button{}
+
+
+.form-inline div input {
+    padding: 6px 2px;
+    height: auto;
+    border:0;
+    box-shadow: 0 10px 20px #9d586e45;
+    margin-right: 10px;
+   
+}
+
+.form-inline button{
+
+background: rgb(157,88,110);
+background: -moz-linear-gradient(left,  rgba(157,88,110,1) 0%, rgba(246,119,117,1) 100%);
+background: -webkit-linear-gradient(left,  rgba(157,88,110,1) 0%, rgba(246,119,117,1) 100%); 
+background: linear-gradient(to right,  rgba(157,88,110,1) 0%, rgba(246,119,117,1 )100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9d586e', endColorstr='#f67775',GradientType=1 );
+
+ color: #fff;
+ font-size: 15px;
+ font-weight: 100;
+ padding: 10px 20px;
+ height: auto;
+ border:0;
+ box-shadow: 0 10px 20px #fa78754d;
+ transition-duration: 0.4s;
+
+}
+
+.form-inline:focus{
+	outline:none;
+	border-color: #80bdff00;
+	box-shadow: 0 10px 20px #9d586e45;
+}
+
+.service-section{
+	position: relative;
+	padding: 100px 0;
+
+}
+
+.service-section img{
+	position: absolute;
+	max-width: 500px;
+	top:50%;
+	transform: translateY(-50%);
+	left: 0;
+}
+.service-section .row{}
+
+.service-section .row .service-box{
+	 box-shadow: 0 10px 20px #9d586e45;
+	 padding: 40px;
+	 background-color: #ffffffa8;
+}
+.service-section .row >div h2{
+	font-size:25px;
+	font-weight: 600;
+}
+.service-section .row >div p{
+	font-size: 13px;
+	line-height: 1.6;
+}
+.service-section .row >div a{
+	color:#fa7875;
+	text-transform: uppercase;
+	font-weight: 600;
+	display: block;
+	font-size: 14px;
+}
+.service-section .row >div a i.fa-minus{
+	margin-left: 6px;
+	margin-right: 2px;
+	font-size: 14px;
+
+} 
+
+.service-section .row >div a i{
+	transition-duration: 0.3s;
+}
+.service-section .row >div a:hover i{
+	transform: translateX(10px);
+}
+ .service-section .row >div a:hover{
+ 	text-decoration: none;
+ }
+
+.align-right img{
+	right: 0;
+	left: auto;
+}
+
+footer{
+
+position: relative;
+}
+
+footer> img{
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+}
+
+footer .signup-section{
+	background-image: url(../images/subscriber.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 45px 0;
+	color: #fff;
+}
+
+.signup-section h2{
+	font-size: 25px;
+}
+
+.signup-section  p{
+	font-size: 13px;
+}
+
+.social{
+	margin-top: 15px;
+}
+.social li{}
+.social li a{
+	background-color: #322e57;
+	color: #fff;
+	width:35px;
+	height: 35px;
+	display: block;
+	margin-left: 10px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 35px;
+
+}
+.social li a:hover{
+
+}
+
+
+.remote-section {
+	
+	margin-top: 15px;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.remote-section li a{
+	 text-decoration: none;
+	color: #3c3861;
+}
+
+.zenwork p{
+    margin-top: 10px;
+    margin-bottom: 1rem;
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.rights-section p {
+    margin:40px 0;
+    font-weight: 600;
+}
+
+.about-section{
+	color:#EA7374;
+}
